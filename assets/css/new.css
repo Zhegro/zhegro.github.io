@@ -1,0 +1,291 @@
+@media (max-width: 450px) {
+    .footer-copyright {
+        margin-bottom: 26vw;
+}
+    footer,.container-fluid {
+        display: none;
+}
+    .custom-accordion > .item {
+        margin-left: 8vw;
+}
+    .stacionar-col-1 {
+        background: unset;
+        color: unset;
+    }
+    #asob {
+        margin-bottom: 120px;
+        overflow: hidden;
+    }
+    .anim-serv-cont #content #close {
+        right: 5px;
+        z-index: 50;
+    }
+    .col-img {
+        outline: none;
+        border: 4px solid #F1EEE9;
+    }
+    #main h1 {
+        font-size: 14.5vw;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 1vw;
+}
+    .rev_h1_span {
+        color: #108AB2;
+}
+    .pacient-preh1 {
+        font-family: Tahoma;
+        font-size: 13px;
+        font-style: normal;
+    }
+    .pacient-text,.rev_hide_div,.rezhim-col-h,.rezhim-col-h-2,.nadom-img,#callback {
+        display: none;
+    }
+    .rev_menu_price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+    }
+    .rev_menu_msg {
+        width: 100%;
+        text-align: center;
+        background: #0a89b2;
+        color: #fff;
+}
+    .rezhim-container,.nadom-col-2 {
+        background-color: #Fff;
+    }
+    .rev_hide_div {
+        margin-top: 10px;
+}
+     h1,h2,h3,.popul-usl-h,h4,h5,h6 {
+        font-family: Tahoma;
+        font-style: normal;
+}
+     h2, h3, h5 {
+        font-size: 20px;
+}
+    #main h3 {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    #main h5 {
+        margin-top: 10px;
+    }
+    .stacionar-h,.nadom-h {
+        font-size: 18px;
+        max-width: 100vw;
+    }
+    .ruble_img {
+        width: 22px;
+}
+    .rev-money-h {
+        text-align: center;
+        padding-right: 10vw;
+        font-size: 16px;
+}
+    .rev-money-img {
+        width: 43px;
+    }
+    .money-text-s {
+        font-size: 12px;
+    }
+    .money-h {
+        font-family: Tahoma;
+        font-style: normal;
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+    }
+    #money {
+        margin: 0;
+        border: none;
+        padding: 2vw 4vw;
+        margin-top: 30px;
+        color: #fff;
+        background: #108AB2;
+    }
+    #money a {
+        color: #0a89b2;
+    }
+    .money-text {
+        margin-top: 10px;
+    }
+    .footer-copyright {
+        background: #F1EEE9;
+    }
+    .copyright {
+        font-family: Tahoma;
+        color: #212529;
+    }
+    .rezhim-col-text {
+        font-size: 12px;
+        margin: 0;
+    }
+    .stacionar-h,.stacionar-ul,.nadom-h,.nadom-ul,.pacient-text {
+        font-size: 12px;
+    }
+    .rev_menu_msg {
+        margin-top: 5px;
+    }
+    .popul-usl-row {
+        background-color: #fff;
+    }
+    .popul-usl-h {
+        font-size: 16px;
+        color: #212529;
+    }
+    #scroll,.accordion,#pop-usl,#anim {
+        display: none !important;
+    }
+    /*------------------------------------------*/
+    .pacient-preh1 {
+        border-bottom: 1px solid #0a89b2;
+        max-width: 72%;
+        margin-left: 13%;
+    }
+    .gr_u {
+        background: linear-gradient(to top, #FEE4D3, #FFF9F3);
+    }
+
+
+/*-------anim----------------*/
+    @keyframes run {
+        from{
+            left: 100%;
+            transform: scaleX(1);
+        }
+        49% {
+            left: -10%;
+            transform: scaleX(1);
+        }
+        50% {
+            left: 0;
+            transform: scaleX(-1);
+        }
+        to {
+            left: 100%;
+            transform: scaleX(-1);
+        }
+    }
+/*-----------end anim-----------------*/
+
+
+
+
+
+
+
+
+.dphone_link::before {
+    width: 40px;
+    height: 10px;
+    border-bottom: 1px solid;
+}
+    #breadcrumbs {
+        position: sticky;
+        top: 21.2vw;
+        font-size: 13px;
+    }
+        #breadcrumbs li {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 50%;
+        }
+    /*--------------------------------------------*/
+
+    /*--------skolkovo pereezd---------------*/
+    .skolkovo_pereezd {
+        border: #F19D12 0.5vw solid;
+        margin: 1vw 4vw;
+        text-align: center;
+    }
+    .skolkovo_pereezd_warning {
+        color: #F19D12;
+        font-size: 3vw;
+        margin-top: 1vw;
+    }
+    .skolkovo_pereezd_text {
+        font-size: 2vw;
+        font-weight: bold;
+        margin: 2vw 0;
+    }
+
+    /*----------------------------------------*/
+
+}
+@media (min-width: 451px) {
+    .rev_menu_price,.rev-money-img {
+        display: none !important;
+    }
+
+}
+@media (max-width: 414px) {
+    .footer-copyright {
+        margin-bottom: 25vw;
+    }
+    #breadcrumbs {
+        top: 22vw;
+    }
+}
+
+/*--------------fotogalery------------------------------*/
+.fotogalery_main_div_5,.fotogalery_main_div_1,.fotogalery_main_div_2,.fotogalery_main_div_3,.fotogalery_main_div_4,.fotogalery_main_div_6,.fotogalery_main_div_7 {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 130;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+}
+.slarr {
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+}
+.slick_next_ar {
+    right: 0;
+}
+.slick_main {
+    background: rgba(0,0,0,.5);
+}
+.slick_thumb {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.85;
+}
+.slick_thumb .slick-track {
+    cursor: pointer;
+}
+.slick_main .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.slick_main .slick_main_img {
+    max-height: 90%;
+    max-width: 90%;
+}
+.slick_thumb .slick_main_img {
+    width: 100% !important;
+}
+.slick_thumb .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.slick_thumb .slick-slide:focus {
+    outline: none;
+}
+
+/*-----------------------------------------------------------*/

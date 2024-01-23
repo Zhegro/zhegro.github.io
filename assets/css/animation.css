@@ -1,0 +1,56 @@
+@keyframes run {
+    from{
+        left: 100%;
+        opacity: 0;
+    }
+    10% {
+        left: 90%;
+    }
+    20% {
+        left: 80%;
+        opacity: 1;
+    }
+    30% {
+        left: 70%;
+    }
+    40% {
+        left: 60%;
+    }
+    50% {
+        left: 50%;
+    }
+    60% {
+        left: 40%;
+    }
+    70% {
+        left: 30%;
+    }
+    80% {
+        left: 20%;
+    }
+    90% {
+        left: 10%;
+        opacity: 1;
+    }
+    to {
+        left: 0;
+        opacity: 0;
+    }
+}
+
+.rezhim-container .new{
+    opacity: 0;
+}
+
+.rezhim-container .div_opacity{
+    -webkit-transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -ms-transition: opacity .1s ease-in-out;
+    -o-transition: opacity .1s ease-in-out;
+    transition: opacity .1s ease-in-out;
+    opacity: 1;
+}
+
+.rezh-anim {
+    display: inline-block;
+}
